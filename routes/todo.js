@@ -1,0 +1,10 @@
+const express = require('express')
+const  app = express()
+const { todocontroler } = require('../controler')
+app.get('/',todocontroler.getTodos)
+app.get('/:id',todocontroler.getTodo)
+app.post('/',todocontroler.postTodo)
+app.delete('/:id',todocontroler.deleteTodo)
+app.put('/:id/title',todocontroler.putTodo)
+app.put('/:id/description',todocontroler.putDes)
+module.exports= app;
