@@ -1,10 +1,3 @@
-
-// var con = mysql.createConnection({
-//     host: 'localhost',
-//     user: 'root',
-//     password: 'mysql',
-//     database: 'TODO'
-// })
 const todomodel = require('../models/todo');
 
 exports.getTodos = async (req, res) => {
