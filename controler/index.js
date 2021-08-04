@@ -1,4 +1,7 @@
 const todo = require('./todo');
+const india = require('./country')
 module.exports = {
-    todocontroler: todo
+    todocontroler: todo,
+    indcontroler : india
+    
 }

@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize')
 const sequelize = require('../utils/database')
-const todo =    sequelize.define( 'todo',{
+const todo =    sequelize.define( 'todos',{
     id :{
         type : Sequelize.INTEGER,
         autoIncrement : true,
