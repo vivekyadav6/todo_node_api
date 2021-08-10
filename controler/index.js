@@ -1,7 +1,8 @@
 const todo = require('./todo');
 const india = require('./country')
+const auth = require('./auth')
 module.exports = {
     todocontroler: todo,
-    indcontroler : india
-    
-}
+    indcontroler : india,
+    authcontroler : auth,    
+};

@@ -1,3 +1,4 @@
+
 const express = require('express')
 const sequelize = require('./utils/database')
 const app = express()
