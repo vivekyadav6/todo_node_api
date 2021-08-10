@@ -36,7 +36,7 @@ exports.postAuth1 = async (req, res) => {
         const cA = await authmodel.update({ token: newToken }, { where: { email: email } })
         res.json({ msg: 'welcome' })
     } else {
-        res.json({ error: 'Invalid email or password' });
+        res.json({ error: 'Invalid email or password'});
     }
 }
 exports.getProfile = async (req, res) => {
